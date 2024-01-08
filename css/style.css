@@ -1,0 +1,116 @@
+body{
+    background-color: #1E202B;
+}
+.bg-body-tertiary{
+    background-color: #1E202B !important;
+}
+.body{
+    position: relative;
+    overflow: hidden;
+}
+.nav-link{
+    color: #fff ;
+    border: solid 2px #009ad800;
+}
+.nav-link:focus, .nav-link:hover{
+    color: #009ad8;
+    border-color: #009ad8;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #009ad8;
+    border-color: #009ad8;
+}
+.logo-text p{
+    font-size: 12px;
+    color: #BFC1C8;
+}
+.search{
+    padding: 70px 0;
+    /* background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center center; */
+    /* position: relative; */
+    height: 350px;
+    overflow: hidden;
+}
+video{
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+.search-content{
+    position: relative;
+}
+.search-input{
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    padding: 15px;
+    outline: none;
+    background-color: #1E202B9a;
+    color: #fff;
+}
+.search-input + button{
+    background-color: #009ad8;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.btn:hover{
+    background-color: #009ad8;
+    color: #fff;
+    border-color: #009ad8;
+}
+.weather-card{
+    background-color: #3235449a;
+    min-height: 350px;
+}
+.weather-body h4{
+    color: #BFC1C8;
+}
+.card-header{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #BFC1C8;
+}
+.weather-info h2{
+    font-size: 80px;
+}
+.card-bg-color{
+    background-color: #2629369a;
+}
+.all-cards{
+    border-radius: 10px;
+    margin-top: -150px;
+    position: relative;
+}
+.weather-body p{
+    color: #009ad8;
+}
+.card-footer i{
+    color: #BFC1C8;
+    font-size: 20px;
+    margin: 0 5px;
+}
+footer{
+    background-color: #323544;
+}
+.main{
+    margin-bottom: 180px;
+}
+.icon{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: #1E202B;
+    color: #009ad8;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.icon:hover{
+    background-color: #009ad8;
+    color: #fff;
+}
