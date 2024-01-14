@@ -43,9 +43,11 @@ searchLocation.addEventListener('input', function () {
 })
 function displayWeather(){
             // Update weather information for the current, second, and third days
-            currentDayInfo();
-            secondDayInfo();
-            thirdDayInfo();
+            if(!result.error){                
+                currentDayInfo();
+                secondDayInfo();
+                thirdDayInfo();
+            }
 }
 // Function to display weather information for the current day
 function currentDayInfo(){
@@ -57,7 +59,7 @@ function currentDayInfo(){
     if(weatherInfo.innerHTML == 'Sunny' || weatherInfo.innerHTML == 'Clear'){
         sunny()
     }
-    else if(weatherInfo.innerHTML == 'Overcast' || weatherInfo.innerHTML == 'Light sleet' || weatherInfo.innerHTML == 'Partly cloudy' || weatherInfo.innerHTML == 'Cloudy'){
+    else if(weatherInfo.innerHTML == 'Overcast' || weatherInfo.innerHTML == 'Light sleet' || weatherInfo.innerHTML == 'Partly cloudy' || weatherInfo.innerHTML == 'Cloudy' || weatherInfo.innerHTML == 'Mist'){
         overcast()
     }
     else if(weatherInfo.innerHTML == 'Light rain' || weatherInfo.innerHTML == 'Heavy rain' || weatherInfo.innerHTML == 'Light rain shower'){
